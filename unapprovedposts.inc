@@ -1,5 +1,5 @@
 <?
-
+// this is a comment
 function unapproved_posts_query(){
 	global $mysqli;
 	$sql = "select a.post_subject, a.post_text, a.poster_id, a.poster_ip, a.post_time, a.post_id, a.topic_id,
